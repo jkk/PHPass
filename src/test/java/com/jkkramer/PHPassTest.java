@@ -1,11 +1,9 @@
-package com.github.wolf480pl.phpass;
-
+package com.jkkramer.phpass;
 
 import org.junit.Test;
-
 import junit.framework.TestCase;
 
-public class TestPHPass extends TestCase {
+public class PHPassTest extends TestCase {
 	static String correct = "test12345";
 	static String wrong = "test12346";
 	static String hash = "$P$9IQRaTwmfeRo7ud9Fh4E2PdI0S3r.L0";
@@ -13,7 +11,7 @@ public class TestPHPass extends TestCase {
 	String hashed = phpass.HashPassword(correct);
 	
 	public static void main(String args[]){
-		junit.textui.TestRunner.run(TestPHPass.class);
+		junit.textui.TestRunner.run(PHPassTest.class);
 	}
 	@Test
 	public final void testCheckPassword_correct() {

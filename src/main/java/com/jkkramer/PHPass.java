@@ -1,4 +1,4 @@
-package com.github.wolf480pl.phpass;
+package com.jkkramer.phpass;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
